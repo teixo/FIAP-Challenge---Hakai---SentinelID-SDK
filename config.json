@@ -1,0 +1,44 @@
+{
+  "weights": {
+    "newIP": 20,
+    "newLocation": 20,
+    "newFingerprint": 30,
+    "unusualHour": 10,
+    "lowInteraction": 20,
+    "recaptchaLowScore": 30
+  },
+
+  "thresholds": {
+    "allow": 40,
+    "review": 70
+  },
+  "recaptcha": {
+    "enabled": true,
+    "siteKey": "6LeczaErAAAAALcRDYUWSBAJvS5mhd6cORi9nWfz",
+    "secretKey": "6LeczaErAAAAANguFNS_PF-ZBfLyfrv_yUkmhsUi",
+    "threshold": 0.5,
+    "actions": {
+      "login": "login", 
+      "checkout": "checkout"
+    },
+    "verifyEndpoint": "https://www.google.com/recaptcha/api/siteverify",
+    "allowHosts": ["localhost", "127.0.0.1"]
+  },
+
+  "logging": {
+    "enabled": true,
+    "path": "logs/logs.json",
+    "maxSizeMB": 10,
+    "rotate": false
+  },
+
+  "database": {
+    "driver": "sqlite",
+    "path": "data/sentinelid.db"
+  },
+
+  "time": {
+    "timezone": "America/Sao_Paulo",
+    "unusualHourRange": { "start": 0, "end": 5 }
+  }
+}

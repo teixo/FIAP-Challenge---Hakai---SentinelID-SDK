@@ -1,0 +1,22 @@
+{
+  "name": "sentinelid-sdk",
+  "version": "0.1.0",
+  "description": "SDK antifraude SentinelID (POC) para integração com e-commerces (ex.: MedusaJS)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "keywords": [
+    "fraud",
+    "antifraude",
+    "sdk",
+    "risk-scoring",
+    "recaptcha"
+  ],
+  "author": "SentinelID",
+  "scripts": {
+    "test-server": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

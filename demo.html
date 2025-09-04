@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-g">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetxShop - Demo SentinelID</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; }
+        input { width: 100%; padding: 8px; box-sizing: border-box; }
+        button { padding: 10px 15px; cursor: pointer; }
+        #result { margin-top: 20px; padding: 15px; border-radius: 5px; background-color: #f0f0f0; }
+    </style>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeczaErAAAAALcRDYUWSBAJvS5mhd6cORi9nWfz"></script>
+    
+    <script src="sentinelid.js"></script>
+</head>
+<body>
+    <h1>Simulação de Login - NetxShop</h1>
+    <p>Este formulário simula um login de usuário para ser analisado pelo SentinelID.</p>
+
+    <div class="form-group">
+        <label for="userId">ID do Usuário (simulação)</label>
+        <input type="text" id="userId" value="user-123-legitimo">
+    </div>
+
+    <button id="loginButton">Fazer Login</button>
+
+    <div id="result">Aguardando análise...</div>
+
+    <script>
+        // 3. LÓGICA DA PÁGINA
+        const loginButton = document.getElementById('loginButton');
+        const userIdInput = document.getElementById('userId');
+        const resultDiv = document.getElementById('result');
+        
+        // Pegue a Site Key do seu config.json
+        const RECAPTCHA_SITE_KEY = "6LeczaErAAAAALcRDYUWSBAJvS5mhd6cORi9nWfz"; //
+
+        loginButton.addEventListener('click', async () => {
+            const userId = userIdInput.value;
+            if (!userId) {
+                alert('Por favor, insira um ID de usuário para a simulação.');
+                return;
+            }
+
+            resultDiv.textContent = 'Analisando...';
+            
+            try {
+                // Prepara o payload com nosso SDK
+                const payload = await window.SentinelID.preparePayload('login', RECAPTCHA_SITE_KEY);
+                payload.userId = userId; // Adiciona o userId ao payload
+
+                // Envia para o seu backend (ajuste a URL se necessário)
+                const response = await fetch('/analyze', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                
+                // Exibe o resultado da análise
+                if (response.status === 403) {
+                    const data = await response.json();
+                    resultDiv.style.backgroundColor = '#ffdddd';
+                    resultDiv.textContent = `ACESSO BLOQUEADO (Score: ${data.score}). Motivo: ${data.reason}`;
+                } else {
+                    const sentinelDecision = response.headers.get('X-SentinelID-Decision') || 'allow';
+                    resultDiv.style.backgroundColor = '#ddffdd';
+                    resultDiv.textContent = `ACESSO PERMITIDO. Decisão do SentinelID: ${sentinelDecision}.`;
+                }
+
+            } catch (error) {
+                console.error('Erro na análise:', error);
+                resultDiv.style.backgroundColor = '#ffdddd';
+                resultDiv.textContent = 'Erro ao se comunicar com o servidor de análise.';
+            }
+        });
+    </script>
+</body>
+</html>

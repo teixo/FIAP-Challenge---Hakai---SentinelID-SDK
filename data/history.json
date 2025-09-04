@@ -1,0 +1,44 @@
+{
+  "user-123-legitimo": {
+    "ip": "2804:14c:81:aae6:242b:3c86:8670:5d6e",
+    "location": "São Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|1920x1080",
+    "lastSeen": "2025-09-01T11:54:25.234Z"
+  },
+  "user-123": {
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T16:56:27.616Z"
+  },
+  "hacker": {
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T16:59:50.279Z"
+  },
+  "hacker123": {
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T16:59:56.735Z"
+  },
+  "user": {
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:00:01.753Z"
+  },
+  " usuario-valido-01": {
+    "ip": "2804:14c:81:aae6:242b:3c86:8670:5d6e",
+    "location": "São Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|1920x1080",
+    "lastSeen": "2025-09-01T11:55:16.702Z"
+  },
+  "usuario-valido-01": {
+    "ip": "2804:14c:81:aae6:242b:3c86:8670:5d6e",
+    "location": "São Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|1920x1080",
+    "lastSeen": "2025-09-01T11:55:39.187Z"
+  }
+}
