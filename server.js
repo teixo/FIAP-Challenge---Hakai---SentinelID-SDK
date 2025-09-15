@@ -19,10 +19,10 @@ const sentinel = sentinelIDMiddleware(config);
 // É a mesma rota que a demo.html chama no 'fetch'
 app.post('/analyze', sentinel, (req, res) => {
   // Se o middleware deixou a requisição passar (allow/review), respondemos com sucesso.
-  // A decisão 'review' pode ser lida no header X-SentinelID-Decision.
+  // A alteração principal está aqui: enviamos o objeto 'sentinel' completo de volta.
   res.json({ 
     message: 'Ação processada com sucesso.',
-    sentinelDecision: req.sentinel?.decision || 'allow' // req.sentinel foi adicionado pelo nosso middleware
+    sentinel: req.sentinel // req.sentinel foi adicionado pelo nosso middleware
   });
 });
 

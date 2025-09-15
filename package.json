@@ -14,7 +14,8 @@
   ],
   "author": "SentinelID",
   "scripts": {
-    "test-server": "node server.js"
+    "test-server": "node server.js",
+    "debug": "node --inspect server.js"
   },
   "dependencies": {
     "express": "^5.1.0"

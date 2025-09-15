@@ -1,80 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-g">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NetxShop - Demo SentinelID</title>
+    <title>NetxShop - Painel de Demonstração SentinelID</title>
     <style>
-        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; }
-        .form-group { margin-bottom: 15px; }
-        label { display: block; margin-bottom: 5px; }
-        input { width: 100%; padding: 8px; box-sizing: border-box; }
-        button { padding: 10px 15px; cursor: pointer; }
-        #result { margin-top: 20px; padding: 15px; border-radius: 5px; background-color: #f0f0f0; }
+        body { font-family: sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        .container { border: 1px solid #ccc; padding: 25px; border-radius: 8px; }
+        .test-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin: 20px 0; }
+        button { padding: 10px; cursor: pointer; border: 1px solid #aaa; border-radius: 5px; font-weight: bold; font-size: 0.9em; }
+        button.scenario-ok { background-color: #e7f4e4; }
+        button.scenario-suspect { background-color: #fff8e1; }
+        button.scenario-bad { background-color: #fde2e2; }
+        #result { margin-top: 20px; padding: 15px; border-radius: 5px; font-weight: bold; transition: all 0.3s ease; text-align: center; font-size: 1.2em; }
+        #result.allow { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        #result.review { background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
+        #result.deny { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        pre { background-color: #f0f0f0; padding: 15px; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word; border: 1px solid #ddd; max-height: 200px; overflow-y: auto; }
     </style>
     <script src="https://www.google.com/recaptcha/api.js?render=6LeczaErAAAAALcRDYUWSBAJvS5mhd6cORi9nWfz"></script>
-    
     <script src="sentinelid.js"></script>
 </head>
 <body>
-    <h1>Simulação de Login - NetxShop</h1>
-    <p>Este formulário simula um login de usuário para ser analisado pelo SentinelID.</p>
+    <div class="container">
+        <h1>Painel de Demonstração - SentinelID</h1>
+        <p>Use os botões abaixo para simular diferentes cenários e ver a análise de risco em tempo real.</p>
 
-    <div class="form-group">
-        <label for="userId">ID do Usuário (simulação)</label>
-        <input type="text" id="userId" value="user-123-legitimo">
+        <div class="test-grid">
+            <button id="test-legitimo" class="scenario-ok">1. Usuário Legítimo</button>
+            <button id="test-recorrente" class="scenario-ok">2. Usuário Recorrente</button>
+            <button id="test-novo" class="scenario-suspect">3. Usuário Novo (Suspeito)</button>
+            <button id="test-viajante" class="scenario-suspect">4. Usuário em Viagem</button>
+            <button id="test-novo-browser" class="scenario-suspect">5. Usuário em Navegador Novo</button>
+            <button id="test-madrugada" class="scenario-suspect">6. Login de Madrugada</button>
+            <button id="test-bot" class="scenario-bad">7. Simulação de Bot</button>
+        </div>
+
+        <div id="result">Aguardando análise...</div>
+
+        <h3>Dados Enviados para Análise (Payload):</h3>
+        <pre id="payload-display">Clique em um botão de teste para ver os dados coletados.</pre>
     </div>
 
-    <button id="loginButton">Fazer Login</button>
-
-    <div id="result">Aguardando análise...</div>
-
     <script>
-        // 3. LÓGICA DA PÁGINA
-        const loginButton = document.getElementById('loginButton');
-        const userIdInput = document.getElementById('userId');
         const resultDiv = document.getElementById('result');
-        
-        // Pegue a Site Key do seu config.json
-        const RECAPTCHA_SITE_KEY = "6LeczaErAAAAALcRDYUWSBAJvS5mhd6cORi9nWfz"; //
+        const payloadDisplay = document.getElementById('payload-display');
+        const RECAPTCHA_SITE_KEY = "6LeczaErAAAAALcRDYUWSBAJvS5mhd6cORi9nWfz";
 
-        loginButton.addEventListener('click', async () => {
-            const userId = userIdInput.value;
-            if (!userId) {
-                alert('Por favor, insira um ID de usuário para a simulação.');
-                return;
-            }
-
+        async function performAnalysis(userId, payloadOverrides = {}) {
             resultDiv.textContent = 'Analisando...';
-            
-            try {
-                // Prepara o payload com nosso SDK
-                const payload = await window.SentinelID.preparePayload('login', RECAPTCHA_SITE_KEY);
-                payload.userId = userId; // Adiciona o userId ao payload
+            resultDiv.className = '';
 
-                // Envia para o seu backend (ajuste a URL se necessário)
+            try {
+                const payload = await window.SentinelID.preparePayload('login', RECAPTCHA_SITE_KEY);
+                payload.userId = userId;
+
+                Object.assign(payload, payloadOverrides);
+
+                payloadDisplay.textContent = JSON.stringify(payload, null, 2);
+
                 const response = await fetch('/analyze', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(payload)
                 });
-                
-                // Exibe o resultado da análise
-                if (response.status === 403) {
-                    const data = await response.json();
-                    resultDiv.style.backgroundColor = '#ffdddd';
-                    resultDiv.textContent = `ACESSO BLOQUEADO (Score: ${data.score}). Motivo: ${data.reason}`;
-                } else {
-                    const sentinelDecision = response.headers.get('X-SentinelID-Decision') || 'allow';
-                    resultDiv.style.backgroundColor = '#ddffdd';
-                    resultDiv.textContent = `ACESSO PERMITIDO. Decisão do SentinelID: ${sentinelDecision}.`;
+
+                resultDiv.classList.remove('allow', 'review', 'deny');
+                const data = await response.json();
+
+                // ## LÓGICA DE EXIBIÇÃO CORRIGIDA ##
+                // Esta lógica agora lê a resposta do server.js corretamente
+                if (!response.ok) { // Trata o 'deny' (status 403)
+                    const decision = data.sentinel?.decision || 'deny';
+                    const score = data.sentinel?.score || data.score || 'N/A';
+                    resultDiv.classList.add('deny');
+                    resultDiv.textContent = `[${decision.toUpperCase()}] Score: ${score}. O sistema bloqueou esta ação.`;
+                } else { // Trata 'allow' e 'review'
+                    const decision = data.sentinel?.decision || 'allow';
+                    const score = data.sentinel?.score;
+                    resultDiv.classList.add(decision);
+                    resultDiv.textContent = `[${decision.toUpperCase()}] Score: ${score}.`;
                 }
 
             } catch (error) {
                 console.error('Erro na análise:', error);
-                resultDiv.style.backgroundColor = '#ffdddd';
+                resultDiv.classList.add('deny');
                 resultDiv.textContent = 'Erro ao se comunicar com o servidor de análise.';
             }
+        }
+        
+        // --- Configuração dos Botões de Cenário ---
+        document.getElementById('test-legitimo').addEventListener('click', () => performAnalysis('usuario-conhecido-123'));
+        
+        document.getElementById('test-recorrente').addEventListener('click', () => performAnalysis('usuario-conhecido-123'));
+        
+        document.getElementById('test-novo').addEventListener('click', () => performAnalysis(`usuario-novo-${Date.now()}`));
+        
+        document.getElementById('test-bot').addEventListener('click', () => performAnalysis(`bot-novo-${Date.now()}`));
+        
+        const travelLocations = [
+            { ip: "203.0.113.1", location: "Tokyo, Japan" },
+            { ip: "198.51.100.1", location: "New York, United States" },
+            { ip: "192.0.2.1", location: "London, United Kingdom" },
+            { ip: "203.0.113.25", location: "Sydney, Australia" }
+        ];
+        let travelIndex = 0;
+        document.getElementById('test-viajante').addEventListener('click', () => {
+            const location = travelLocations[travelIndex % travelLocations.length];
+            travelIndex++;
+            performAnalysis('usuario-conhecido-123', location);
+        });
+
+        document.getElementById('test-novo-browser').addEventListener('click', () => {
+            performAnalysis('usuario-conhecido-123', {
+                fingerprint: `NOVO_FINGERPRINT_${Date.now()}`
+            });
+        });
+
+        document.getElementById('test-madrugada').addEventListener('click', () => {
+            const madrugada = new Date();
+            madrugada.setHours(3, 15, 0); 
+            performAnalysis('usuario-conhecido-123', {
+                ts: madrugada.toISOString() 
+            });
         });
     </script>
 </body>
