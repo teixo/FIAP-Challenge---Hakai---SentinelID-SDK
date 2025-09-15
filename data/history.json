@@ -1,9 +1,9 @@
 {
   "user-123-legitimo": {
-    "ip": "2804:14c:81:aae6:242b:3c86:8670:5d6e",
-    "location": "São Paulo, Brazil",
-    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|1920x1080",
-    "lastSeen": "2025-09-01T11:54:25.234Z"
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T16:59:45.166Z"
   },
   "user-123": {
     "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
@@ -29,16 +29,597 @@
     "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
     "lastSeen": "2025-08-22T17:00:01.753Z"
   },
-  " usuario-valido-01": {
-    "ip": "2804:14c:81:aae6:242b:3c86:8670:5d6e",
-    "location": "São Paulo, Brazil",
+  "usuario-conhecido-123": {
+    "ip": "192.0.2.1",
+    "location": "London, United Kingdom",
     "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|1920x1080",
-    "lastSeen": "2025-09-01T11:55:16.702Z"
+    "lastSeen": "2025-09-13T14:13:37.030Z"
   },
-  "usuario-valido-01": {
-    "ip": "2804:14c:81:aae6:242b:3c86:8670:5d6e",
+  "usuario-novo-301": {
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:14:05.376Z"
+  },
+  "usuario-novo-471": {
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:14:08.194Z"
+  },
+  "usuario-novo-895": {
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:14:10.403Z"
+  },
+  "bot-rapido-456": {
+    "ip": "::ffff:127.0.0.1",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:22:46.629Z"
+  },
+  "usuario-novo-715": {
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:14:20.555Z"
+  },
+  "usuario-novo-1755883040765": {
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:17:21.510Z"
+  },
+  "usuario-novo-1755883045245": {
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:17:25.998Z"
+  },
+  "usuario-novo-1755883047569": {
+    "ip": "2a02:6ea0:2008:3002:3008:4eda:be75:9184",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:17:28.293Z"
+  },
+  "usuario-novo-1755883079957": {
+    "ip": "::1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:18:00.483Z"
+  },
+  "usuario-novo-1755883081409": {
+    "ip": "::1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:18:01.977Z"
+  },
+  "usuario-novo-1755883082681": {
+    "ip": "::1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:18:03.219Z"
+  },
+  "usuario-novo-1755883096929": {
+    "ip": "::1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:18:17.491Z"
+  },
+  "usuario-novo-1755883098150": {
+    "ip": "::1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-08-22T17:18:18.696Z"
+  },
+  "usuario-novo-1757272163344": {
+    "ip": "2a02:6ea0:2008:1002:fe85:f86c:be11:f8e9",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:09:23.881Z"
+  },
+  "usuario-novo-1757272188005": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:09:48.314Z"
+  },
+  "usuario-novo-1757272193502": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:09:53.792Z"
+  },
+  "usuario-novo-1757272194694": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:09:55.188Z"
+  },
+  "usuario-novo-1757272195776": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:09:56.057Z"
+  },
+  "usuario-novo-1757272461365": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:14:21.654Z"
+  },
+  "usuario-novo-1757272463957": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:14:24.258Z"
+  },
+  "usuario-novo-1757272908624": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:21:48.959Z"
+  },
+  "usuario-novo-1757272948176": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:22:28.498Z"
+  },
+  "usuario-novo-1757273176535": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:26:16.824Z"
+  },
+  "bot-novo-1757273181728": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:26:22.049Z"
+  },
+  "usuario-novo-1757273194582": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:26:34.914Z"
+  },
+  "usuario-novo-1757273197104": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:26:37.414Z"
+  },
+  "usuario-novo-1757273425050": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:30:25.416Z"
+  },
+  "bot-novo-1757273435644": {
+    "ip": "::ffff:127.0.0.1",
+    "location": null,
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T19:30:35.947Z"
+  },
+  "usuario-novo-1757276390896": {
+    "ip": "2a02:6ea0:2008:1002:fe85:f86c:be11:f8e9",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:19:51.410Z"
+  },
+  "usuario-novo-1757276392608": {
+    "ip": "2a02:6ea0:2008:1002:fe85:f86c:be11:f8e9",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:19:53.139Z"
+  },
+  "usuario-novo-1757276393760": {
+    "ip": "2a02:6ea0:2008:1002:fe85:f86c:be11:f8e9",
+    "location": "Sao Paulo, Brazil",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:19:54.220Z"
+  },
+  "bot-novo-1757276399614": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:19:59.859Z"
+  },
+  "usuario-novo-1757276409942": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:20:10.206Z"
+  },
+  "usuario-novo-1757276412240": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:20:12.556Z"
+  },
+  "usuario-novo-1757276413212": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:20:13.471Z"
+  },
+  "usuario-novo-1757276414862": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:20:15.104Z"
+  },
+  "usuario-novo-1757276486841": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:21:27.316Z"
+  },
+  "bot-novo-1757276493107": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:21:33.382Z"
+  },
+  "usuario-novo-1757276495599": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:21:35.834Z"
+  },
+  "usuario-novo-1757276537285": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:22:17.543Z"
+  },
+  "usuario-novo-1757276538377": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:22:18.676Z"
+  },
+  "usuario-novo-1757276539279": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:22:19.560Z"
+  },
+  "usuario-novo-1757276639484": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:23:59.754Z"
+  },
+  "usuario-novo-1757276641246": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:24:01.519Z"
+  },
+  "usuario-novo-1757276670718": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:24:30.995Z"
+  },
+  "bot-novo-1757276679914": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:24:40.174Z"
+  },
+  "bot-novo-1757276681444": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:24:41.703Z"
+  },
+  "usuario-novo-1757276855709": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:27:35.989Z"
+  },
+  "bot-novo-1757276869228": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:27:49.478Z"
+  },
+  "bot-novo-1757276870141": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:27:50.387Z"
+  },
+  "bot-novo-1757277569364": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:39:29.658Z"
+  },
+  "usuario-novo-1757277702162": {
+    "ip": "::ffff:127.0.0.1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:41:42.491Z"
+  },
+  "usuario-novo-1757277704901": {
+    "ip": "::ffff:127.0.0.1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:41:45.274Z"
+  },
+  "bot-novo-1757277717574": {
+    "ip": "::ffff:127.0.0.1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:42:10.184Z"
+  },
+  "bot-novo-1757277771220": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:42:51.500Z"
+  },
+  "usuario-novo-1757277775208": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:42:55.470Z"
+  },
+  "bot-novo-1757277778878": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:42:59.128Z"
+  },
+  "usuario-novo-1757277813249": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:43:33.503Z"
+  },
+  "bot-novo-1757277817575": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:43:37.846Z"
+  },
+  "usuario-novo-1757277818641": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:43:38.886Z"
+  },
+  "usuario-novo-1757277940633": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:45:41.103Z"
+  },
+  "bot-novo-1757277944546": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:45:44.810Z"
+  },
+  "bot-novo-1757277982130": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:46:22.371Z"
+  },
+  "usuario-novo-1757277983712": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:46:23.963Z"
+  },
+  "usuario-novo-1757277987880": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:46:28.168Z"
+  },
+  "usuario-novo-1757278041060": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:47:21.339Z"
+  },
+  "usuario-novo-1757278042204": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:47:22.476Z"
+  },
+  "usuario-novo-1757278043226": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:47:23.467Z"
+  },
+  "usuario-novo-1757278044008": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:47:24.241Z"
+  },
+  "usuario-novo-1757278185882": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:49:46.143Z"
+  },
+  "usuario-novo-1757278187075": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:49:47.321Z"
+  },
+  "bot-novo-1757278197785": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:49:58.049Z"
+  },
+  "usuario-novo-1757278199158": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:49:59.420Z"
+  },
+  "usuario-novo-1757278214566": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:50:14.868Z"
+  },
+  "usuario-novo-1757278266666": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:51:06.925Z"
+  },
+  "usuario-novo-1757278267810": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:51:08.061Z"
+  },
+  "bot-novo-1757278284124": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:51:24.396Z"
+  },
+  "usuario-novo-1757278464798": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:54:25.054Z"
+  },
+  "usuario-novo-1757278465878": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:54:26.147Z"
+  },
+  "usuario-novo-1757278476342": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T20:54:36.604Z"
+  },
+  "bot-novo-1757278944984": {
+    "ip": "::ffff:127.0.0.1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:25.541Z"
+  },
+  "bot-novo-1757278947061": {
+    "ip": "::ffff:127.0.0.1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:27.400Z"
+  },
+  "bot-novo-1757278948094": {
+    "ip": "::ffff:127.0.0.1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:28.412Z"
+  },
+  "bot-novo-1757278949025": {
+    "ip": "::ffff:127.0.0.1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:29.368Z"
+  },
+  "bot-novo-1757278950277": {
+    "ip": "::ffff:127.0.0.1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:30.621Z"
+  },
+  "bot-novo-1757278958091": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:38.651Z"
+  },
+  "bot-novo-1757278960286": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:40.558Z"
+  },
+  "bot-novo-1757278961288": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:41.550Z"
+  },
+  "bot-novo-1757278962340": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:42.600Z"
+  },
+  "usuario-novo-1757278967626": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:47.914Z"
+  },
+  "bot-novo-1757278970724": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:51.000Z"
+  },
+  "bot-novo-1757278975718": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:56.003Z"
+  },
+  "bot-novo-1757278979543": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:02:59.835Z"
+  },
+  "usuario-novo-1757278981492": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:03:01.751Z"
+  },
+  "usuario-novo-1757279170701": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:06:11.454Z"
+  },
+  "bot-novo-1757279253910": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:07:34.173Z"
+  },
+  "bot-novo-1757279256172": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:07:36.441Z"
+  },
+  "bot-novo-1757279257173": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:07:37.431Z"
+  },
+  "bot-novo-1757279261310": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:07:41.584Z"
+  },
+  "bot-novo-1757279301653": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:08:21.911Z"
+  },
+  "bot-novo-1757279305899": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:08:26.197Z"
+  },
+  "bot-novo-1757279310205": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:08:30.496Z"
+  },
+  "usuario-novo-1757279366555": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:09:26.856Z"
+  },
+  "bot-novo-1757279435256": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:10:36.116Z"
+  },
+  "usuario-novo-1757279534587": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:12:14.927Z"
+  },
+  "usuario-novo-1757279851715": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:17:31.988Z"
+  },
+  "usuario-novo-1757279875077": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:17:55.336Z"
+  },
+  "usuario-novo-1757279880628": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:18:00.885Z"
+  },
+  "usuario-novo-1757279954872": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:19:15.170Z"
+  },
+  "usuario-novo-1757279971198": {
+    "ip": "::1",
+    "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|2560x1440",
+    "lastSeen": "2025-09-07T21:19:31.448Z"
+  },
+  "bot-novo-1757772802717": {
+    "ip": "2804:14c:81:aae6:d826:1937:2d36:26ac",
     "location": "São Paulo, Brazil",
     "fingerprint": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36|pt-BR|America/Sao_Paulo|1920x1080",
-    "lastSeen": "2025-09-01T11:55:39.187Z"
+    "lastSeen": "2025-09-13T14:13:23.492Z"
   }
 }
